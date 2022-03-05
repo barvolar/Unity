@@ -13,8 +13,6 @@ public class Alarm : MonoBehaviour
     private float _maxIntensity = 10f;
     private float _minIntensity = 0f;
     private float _maxRange = 10f;
-    private float _curentValuem;
-    private float _curentIntensity;
     private float _flashSpeed = 50f;
 
     public void TurnOn()
@@ -27,30 +25,26 @@ public class Alarm : MonoBehaviour
         _isIntrusion = false;
     }
 
-    private void Start()
-    {
-        _curentValuem = _audioSource.volume;
-        _curentIntensity = _light.intensity;
-    }
-
     private void Update()
     {
-        _light.range = Mathf.Repeat(_flashSpeed*Time.time, _maxRange);
+        _light.range = Mathf.Repeat(_flashSpeed * Time.time, _maxRange);
         Work();
     }
 
     private void Work()
-    {     
-        if (_isIntrusion)
+    {
+        if (_isIntrusion && _audioSource.volume < _maxVolume)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume,_maxVolume, 0.1f* Time.deltaTime);
-            _light.intensity = Mathf.MoveTowards(_light.intensity,_maxIntensity, 1f* Time.deltaTime);
+            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, 0.1f * Time.deltaTime);
+            _light.intensity = Mathf.MoveTowards(_light.intensity, _maxIntensity, 1f * Time.deltaTime);
+            Debug.Log("+"+Time.time);
         }
 
-        else
+        else if (!_isIntrusion && _audioSource.volume > _minVolume)
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, 0.1f * Time.deltaTime);
             _light.intensity = Mathf.MoveTowards(_light.intensity, _minIntensity, 1f * Time.deltaTime);
+            Debug.Log("-"+Time.time);
         }
-    } 
+    }
 }
