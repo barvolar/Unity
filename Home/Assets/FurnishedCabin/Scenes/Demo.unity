@@ -311,8 +311,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3204977360614464329}
-        m_TargetAssemblyTypeName: AlarmHandler, Assembly-CSharp
-        m_MethodName: OnAlarm
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: TurnOn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -326,8 +326,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3204977360614464329}
-        m_TargetAssemblyTypeName: AlarmHandler, Assembly-CSharp
-        m_MethodName: OffAlarm
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: TurnOff
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
