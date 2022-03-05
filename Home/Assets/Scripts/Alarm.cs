@@ -37,14 +37,12 @@ public class Alarm : MonoBehaviour
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, 0.1f * Time.deltaTime);
             _light.intensity = Mathf.MoveTowards(_light.intensity, _maxIntensity, 1f * Time.deltaTime);
-            Debug.Log("+"+Time.time);
         }
 
         else if (!_isIntrusion && _audioSource.volume > _minVolume)
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, 0.1f * Time.deltaTime);
-            _light.intensity = Mathf.MoveTowards(_light.intensity, _minIntensity, 1f * Time.deltaTime);
-            Debug.Log("-"+Time.time);
+            _light.intensity = Mathf.MoveTowards(_light.intensity, _minIntensity, 1f * Time.deltaTime);         
         }
     }
 }
