@@ -622,6 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01cc2f43d09d9a84793d0ce758c53797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnBox1: {fileID: 1304287206}
-  _spawnBox2: {fileID: 880380415}
-  _spawnObject: {fileID: 612801197533801708, guid: e93d346f072db5c45b18cf2a3c33978b, type: 3}
+  _prefab: {fileID: 612801197533801708, guid: e93d346f072db5c45b18cf2a3c33978b, type: 3}
+  _spawnBoxes:
+  - {fileID: 1304287206}
+  - {fileID: 880380415}

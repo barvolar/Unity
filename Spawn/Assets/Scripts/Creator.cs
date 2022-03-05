@@ -4,35 +4,35 @@ using UnityEngine;
 
 public class Creator : MonoBehaviour
 {
-    [SerializeField] private GameObject _spawnBox1;
-    [SerializeField] private GameObject _spawnBox2;
-    [SerializeField] private GameObject _spawnObject;
+    [SerializeField] private GameObject _prefab;
+    [SerializeField] private GameObject[] _spawnBoxes;
 
     private float _spawnCount = 100f;
 
     private void Start()
     {
+
         StartCoroutine(Spawn());
     }
 
     private IEnumerator Spawn()
     {
+        int spawnBoxIndex = 0;
+
         for (int i = 0; i < _spawnCount; i++)
         {
-            CreateBall(_spawnBox1.transform);
-            Debug.Log(Time.time);
+            if (spawnBoxIndex >= _spawnBoxes.Length)
+                spawnBoxIndex = 0;
 
-            yield return new WaitForSeconds(2);
+            CreateBall(_spawnBoxes[spawnBoxIndex].transform);
+            spawnBoxIndex++;
 
-            CreateBall(_spawnBox2.transform);
-            Debug.Log(Time.time);
-
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
         }
     }
 
     private void CreateBall(Transform position)
     {
-        Instantiate(_spawnObject, position.position, Quaternion.identity);
+        Instantiate(_prefab, position.position, Quaternion.identity);
     }
 }
