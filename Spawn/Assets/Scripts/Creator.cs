@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Creator : MonoBehaviour
 {    
-    [SerializeField] private Ball _ball;
+    [SerializeField] private Ball _prefab;
     [SerializeField] private SpawnBox[] _spawnBoxes;
-        
+
+    private WaitForSeconds _waitForSeconds;
     private float _spawnCount = 100f;
 
     private void Start()
-    {     
+    {
+        _waitForSeconds = new WaitForSeconds(2);
         StartCoroutine(Spawn());
     }
 
@@ -23,15 +25,15 @@ public class Creator : MonoBehaviour
             if (spawnBoxIndex >= _spawnBoxes.Length)
                 spawnBoxIndex = 0;
 
-            CreateBall(_spawnBoxes[spawnBoxIndex].transform);
+            SpawnBall(_spawnBoxes[spawnBoxIndex].transform);
             spawnBoxIndex++;
 
-            yield return new WaitForSeconds(1);
+            yield return _waitForSeconds;
         }
     }
 
-    private void CreateBall(Transform position)
+    private void SpawnBall(Transform position)
     {
-        Instantiate(_ball, position.position, Quaternion.identity);
+        Instantiate(_prefab, position.position, Quaternion.identity);
     }
 }
