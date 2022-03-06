@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Creator : MonoBehaviour
-{
-    [SerializeField] private GameObject _prefab;
-    [SerializeField] private GameObject[] _spawnBoxes;
-
+{    
+    [SerializeField] private Ball _ball;
+    [SerializeField] private SpawnBox[] _spawnBoxes;
+        
     private float _spawnCount = 100f;
 
     private void Start()
-    {
-
+    {     
         StartCoroutine(Spawn());
     }
 
@@ -33,6 +32,6 @@ public class Creator : MonoBehaviour
 
     private void CreateBall(Transform position)
     {
-        Instantiate(_prefab, position.position, Quaternion.identity);
+        Instantiate(_ball, position.position, Quaternion.identity);
     }
 }
