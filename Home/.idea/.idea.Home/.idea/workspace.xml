@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0e54e10-f339-4b8b-88f3-8ae004c369f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Animations/player/player-idle-1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Animations/player/player-idle-1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Environment/props/platform-long.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Environment/props/platform-long.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Assets/Sunnyland/artwork/Sprites/Items/cherry/cherry-7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/Platforms.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/Platforms.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_10.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_10.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_100.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_100.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_101.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_101.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_102.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_102.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_103.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_103.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_104.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_104.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_105.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_105.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_106.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_106.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_107.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_107.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_108.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_108.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_109.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_109.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_110.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_110.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_111.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_111.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_112.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_112.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_113.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_113.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_114.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_114.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_115.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_115.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_116.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_116.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_117.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_117.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_118.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_118.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_119.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_119.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_120.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_120.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_121.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_121.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_122.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_122.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_123.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_123.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_124.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_124.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_125.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_125.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_126.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_126.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_127.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_127.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_17.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_17.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_18.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_18.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_19.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_19.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_21.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_21.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_22.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_22.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_23.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_23.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_24.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_24.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_26.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_26.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_27.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_27.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_28.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_28.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_29.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_29.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_30.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_30.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_31.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_31.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_32.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_32.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_33.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_33.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_34.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_34.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_35.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_35.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_36.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_36.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_37.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_37.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_38.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_38.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_39.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_39.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_40.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_40.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_41.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_41.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_42.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_42.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_43.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_43.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_44.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_44.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_45.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_45.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_46.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_46.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_47.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_47.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_48.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_48.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_49.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_49.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_50.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_50.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_51.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_51.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_52.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_52.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_53.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_53.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_54.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_54.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_55.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_55.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_56.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_56.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_57.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_57.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_58.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_58.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_59.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_59.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_60.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_60.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_61.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_61.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_62.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_62.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_63.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_63.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_64.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_64.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_65.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_65.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_66.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_66.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_67.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_67.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_68.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_68.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_69.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_69.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_70.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_70.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_71.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_71.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_72.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_72.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_73.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_73.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_74.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_74.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_75.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_75.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_76.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_76.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_77.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_77.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_78.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_78.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_79.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_79.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_80.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_80.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_81.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_81.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_82.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_82.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_83.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_83.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_84.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_84.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_85.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_85.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_86.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_86.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_87.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_87.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_88.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_88.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_89.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_89.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_90.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_90.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_91.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_91.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_92.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_92.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_93.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_93.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_94.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_94.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_95.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_95.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_96.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_96.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_97.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_97.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_98.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_98.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_99.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Assets/TilePalette/Platforms/tileset-sliced_99.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/00/00cf28014b9cadb1bab68a757fd96cb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/07/071bdfaf6f2d57fe335e3bb44e77896e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/0b/0b736aecf3189a2db2558e9ec56a7d79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/0c/0cf150057cbb29508952ba927c15b255" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/0e/0ea35fea19755d216331f85a372348a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/10/10cadf5d2b176543f2b6a87653f99ac3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/11/11386077f0d8998b1c5e735df342b4cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/12/12ac2c99650b036c437cff51ad9b3c43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/15/157c29c63fbde8fb79d85b4170475998" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/16/163534da4a3f4e66f237951cb1b87874" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/16/16b14e5f219fe5c7e89034cc66c4e1bc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/18/183f616f338f4c0b222686fcf8e6159b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/1a/1a003ab154490c8a40c06c720b66a0ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/1b/1bc73582304a73fc769befda436bddc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/28/28b79071562cd8586213ee1142bd8071" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/2b/2bdc0f02357f4be4dad5d2d7df4da23b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/2c/2c7da441e2627b6522ba88507484d3cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/2c/2c8f69c53e249670e9fc6fd2e16394a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/2d/2df4e87b2cbd721cc99bbef036011e9f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/30/30d50a555a2f9a6429abe47d8f0006f2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/38/38d8a94ec246bc749aee3cf1ff9074d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/3c/3ccfffefc2c2fac388b99d9c204f89f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/42/42ad74e79a32b876329b67ddd8e62a17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/4b/4b14fb16a6446e6e840a6b674ede2375" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/50/5078bf43b6ac4b254d6c8333f04282d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/51/51cac43038d222827f2f061f750e9b9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/57/5762536740543c78154664021526984d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/5d/5daaf29a33664aa98461368c4c3220a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/63/639d27ee1c0bb34d974693df4ddd0907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/65/65c30efacb4ae61587a50558b9b7e964" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/73/7347e32a30548faf7be8c2ac8cb818aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/74/74c9ef32f9f4095f4afaba2c3065cf31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/76/766de46874b814491191b088124bf2e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/7d/7d39b9ff960cb1a20eba1e51600b20d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/85/85c1f866960557173c4abcd93c49ec98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/87/87f73a9797cdbae265f289b5b0cce253" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/88/8804b8d439ab10d97ef568ed24692213" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/8f/8f8ee4b05fc55d3a0718daf09b9b0620" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/97/9787df05c37aeaf61b00a2f82a8d1b30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/98/9877723a89ef37e0084df19231217115" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/9a/9ab85ea0d3fa7d8513a468c9d0361bab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/9a/9ae288906ad468b170e6f711d4cdf0d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/9f/9fa8193a5daa21726bee5e58019f2b78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/a6/a6754b080a6330e156ae955fc2beeab1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ae/aeacc0300de8ca9165758da104202940" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/b6/b610cc28f8102e75092f29c18c73687b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/bd/bd66bd6f43a6eea17b7e0d02c1cd8aa6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/c1/c11dd67310c4ca28624334606bebbd96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/c1/c1da0cf16e09f3c831455a348eb351c8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/c2/c21d35d8cf1e3595e66c36c8d385dbfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/cb/cb797cfd04d6119af48d4434d8e5f151" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ce/ce5b96a75780a9f879fc6d0d0cf1d735" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/cf/cf34a609772f6939d2a150a13ce69bc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/d2/d208b82b14b629216a688eb60c469ad6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/d2/d2aa32668cd9cccb24712009a13986d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/d3/d375ea8b70fc096e2ad33bdbae029fdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/d3/d3968d64754ca68bbd654f9ab17faa69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/d4/d44e85698924b7d4f1c2dbffed9a67cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/da/da27a5939cb961b51863187f180d7236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/dd/dd35d08197306c5f72740e0f7df809d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/dd/dde12526a08ccf95551039480d7938f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/de/decf7e8acb46a7fe822711883a506fa0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/df/df1cfabe59bf43b6204283526d741c7c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/e3/e3a80e58f646a1b8a9c8287b5654c4e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/e4/e41388f0ac3b22e114a2983bfd071ea2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/eb/eb6c8716b12f1ebf3ee6a64fec647d0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ec/ec40f4dc742d3d603eb718c641f8472e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ec/ec89ca8eb77c3b7a2cac52c96892b73c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ed/ed973a4a3f6cb01044c2ab7e3524ecb5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/ef/efe681c9e970f4d9fa253f5f40074c80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/f0/f05cbbf45bb4de80c20cac69b59e30b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/f3/f3087e6a08cd8cc4417dd178a9435d93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/Artifacts/fb/fb1cc2246884f90269ea45cf1d011e5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/GridBrush/UnityEditor.Tilemaps.GridBrush.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/PackageManager/ProjectCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/PackageManager/ProjectCache.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Platformer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Platformer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="26ZIFCirOoaz946kDPpidmJ0RYY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e54e10-f339-4b8b-88f3-8ae004c369f0" name="Changes" comment="" />
+      <created>1647624585527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647624585527</updated>
+      <workItem from="1647624592390" duration="57000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
