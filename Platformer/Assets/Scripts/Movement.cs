@@ -9,12 +9,15 @@ namespace Platformer
         [SerializeField] Rigidbody2D _rigidbody2D;
         [SerializeField] SpriteRenderer _spriteRenderer;
         [SerializeField] Animator _animator;
-        [SerializeField] Jump _jump;
+        [SerializeField] Jumper _jump;
 
         private float _speed = 7f;
-        private float _direction;     
+        private float _direction;
         private bool _IsFlip;
-       
+        private string _animationNameJump = "isJump";
+        private string _animationNameWalk = "isWalk";
+        private string _animationNameDeath = "Death";
+
         private void Start()
         {
             _IsFlip = false;
@@ -24,7 +27,7 @@ namespace Platformer
         {
             Move();
             FlipHandler();
-            Animation();           
+            Animation();
         }
 
         private void Move()
@@ -32,7 +35,7 @@ namespace Platformer
             _direction = Input.GetAxisRaw("Horizontal");
             _rigidbody2D.velocity = new Vector2(_direction * _speed, _rigidbody2D.velocity.y);
         }
-     
+
         private void FlipHandler()
         {
             _IsFlip = _spriteRenderer.flipX;
@@ -47,20 +50,20 @@ namespace Platformer
         private void Animation()
         {
             if (!_jump.IsGroundet)
-                _animator.SetBool("isJump", true);
+                _animator.SetBool(_animationNameJump, true);
             else
-                _animator.SetBool("isJump", false);
+                _animator.SetBool(_animationNameJump, false);
 
             if (_jump.IsGroundet && _direction != 0)
-                _animator.SetBool("isWalk", true);
+                _animator.SetBool(_animationNameWalk, true);
             else
-                _animator.SetBool("isWalk", false);
+                _animator.SetBool(_animationNameWalk, false);
         }
 
         public void StopMove()
         {
             _speed = 0;
-            _animator.SetTrigger("Death");
+            _animator.SetTrigger(_animationNameDeath);
         }
     }
 }
