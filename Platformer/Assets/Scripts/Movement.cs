@@ -9,7 +9,7 @@ namespace Platformer
         [SerializeField] Rigidbody2D _rigidbody2D;
         [SerializeField] SpriteRenderer _spriteRenderer;
         [SerializeField] Animator _animator;
-        [SerializeField] Player _player;
+        [SerializeField] Jump _jump;
 
         private float _speed = 7f;
         private float _direction;     
@@ -46,12 +46,12 @@ namespace Platformer
 
         private void Animation()
         {
-            if (!_player.IsGroundet)
+            if (!_jump.IsGroundet)
                 _animator.SetBool("isJump", true);
             else
                 _animator.SetBool("isJump", false);
 
-            if (_player.IsGroundet && _direction != 0)
+            if (_jump.IsGroundet && _direction != 0)
                 _animator.SetBool("isWalk", true);
             else
                 _animator.SetBool("isWalk", false);
