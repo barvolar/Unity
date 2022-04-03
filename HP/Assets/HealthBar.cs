@@ -12,7 +12,8 @@ namespace HealthUI
 
         private void Update()
         {
-            _slider.value = Mathf.MoveTowards(_slider.value, _health.TargetValue, _power * Time.deltaTime);
-        }      
+            if (_slider.value != _health.CurrentValueLife)
+                _slider.value = Mathf.MoveTowards(_slider.value, _health.CurrentValueLife, _power * Time.deltaTime);
+        }
     }
 }

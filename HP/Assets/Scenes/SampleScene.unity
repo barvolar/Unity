@@ -789,8 +789,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1726596801}
-        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+      - m_Target: {fileID: 1726596802}
+        m_TargetAssemblyTypeName: HealthUI.Health, Assembly-CSharp
         m_MethodName: TakeDamae
         m_Mode: 1
         m_Arguments:
@@ -852,6 +852,7 @@ GameObject:
   - component: {fileID: 1726596798}
   - component: {fileID: 1726596797}
   - component: {fileID: 1726596801}
+  - component: {fileID: 1726596802}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -955,6 +956,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _slider: {fileID: 1091295065}
+  _health: {fileID: 1726596802}
+--- !u!114 &1726596802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726596796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93370a62bacd49441909e6553a7094ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1752618910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,9 +1052,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1726596801}
-        m_TargetAssemblyTypeName: Health, Assembly-CSharp
-        m_MethodName: Healing
+      - m_Target: {fileID: 1726596802}
+        m_TargetAssemblyTypeName: HealthUI.Health, Assembly-CSharp
+        m_MethodName: Heal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
