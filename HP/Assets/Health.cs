@@ -1,39 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace HealthUI
+public class Health : MonoBehaviour
 {
-    public class Health : MonoBehaviour
+    [SerializeField] private Slider _slider;
+
+    private float _healingPower = 7f;
+    private float _damagePower = 10f;
+
+    public float Value { get; private set; }
+
+    private void Start()
     {
-        private float _powerDamage = 10f;
-        private float _powerHealing = 7f;
-        private float _maxValueLife = 100f;     
-
-        public float CurrentValueLife { get; private set; }
-
-        private void Update()
-        {
-            ControlExitBorder();
-        }
-
-        private void ControlExitBorder()
-        {
-            if (CurrentValueLife < 0)
-                CurrentValueLife = 0;
-
-            if (CurrentValueLife > _maxValueLife)
-                CurrentValueLife = _maxValueLife;
-        }
-
-        public void TakeDamae()
-        {
-            if (CurrentValueLife > 0)
-                CurrentValueLife -= _powerDamage;
-        }
-
-        public void Heal()
-        {
-            if (CurrentValueLife < 100)
-                CurrentValueLife += _powerHealing;
-        }
+        Value = _slider.maxValue; 
     }
+
+    private void Update()
+    {
+        ControlValue();
+    }
+
+    private void ControlValue()
+    {
+        Value=Mathf.Clamp(Value, 0, _slider.maxValue);
+    }
+
+    public void TakeDamage()
+    {
+        if (Value > 0)
+            Value -= _damagePower;
+    }
+
+    public void Healing()
+    {
+        if (Value < _slider.maxValue)
+            Value += _healingPower;
+    }
+
+    
 }
